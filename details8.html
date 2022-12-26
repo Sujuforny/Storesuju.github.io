@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suju Shop Men</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/main.css">
+
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class = "container">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+                <img src = "images/logo.png" alt = "site icon">  
+            </a>
+            <div class = "order-lg-2 nav-btns">
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-shopping-cart"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                </button>
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-heart"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                </button>
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-search"></i>
+                </button>
+                
+            </div>
+
+            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+
+            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark " href = "index.html">home</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "shop.html"  >shop</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "blog.html">blog</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "about.html">about</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "contact.html">contact</a>
+                    </li>    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!--details of products  -->
+    <br><br><br>
+        <div class="container mt-5 mb-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="images p-3 border">
+                                    
+                                    <div class="text-center p-4"> <img id="main-image" src="images/image/men/men8.jpg"  /> </div> <hr> 
+                                    <div class="thumbnail text-center"> 
+                                        <img class="border detail-image" onclick="change_image(this)" src="images/image/men/men8.jpg" width="70"> 
+                                        <img class="border detail-image" onclick="change_image(this)" src="images/image/men/men8-2.jpg" width="70"> 
+                                        <img class="border detail-image" onclick="change_image(this)" src="images/image/men/men8-3.jpg" width="70"> 
+                                        <img class="border detail-image" onclick="change_image(this)" src="images/image/men/men8-4.jpg" width="70"> 
+                                        <img class="border detail-image" onclick="change_image(this)" src="images/image/men/men8-1.jpg" width="70"> 
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="product p-4">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center">
+                                        <a class="back border" href="men.html"><span class="ml-1">Back</span></a>  
+                                     </div> 
+                                         <i class="fa fa-shopping-cart text-muted"></i>
+                                    </div>
+                                    <!-- <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">Orianz</span>
+                                        <h5 class="text-uppercase">COOFANDY Men's 3 Pieces Suit Shawl Lapel Tuxedo Slim Fit One Button Blazer Wedding Prom Jacket Vest Pants Bow Ties Set</h5>
+                                        <div class="price d-flex flex-row align-items-center"> <span class="act-price">$20</span>
+                                            <div class="ml-2"> <small class="dis-price">$59</small> <span>40% OFF</span> </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="mt-4 mb-3"> <span class="text-uppercase text-muted brand">Orianz</span>
+                                        <h5 class="text-uppercase">Mens 3 Piece Suits Slim Fit Tweed Suit Plaid Slim Fit Suits for Men One Button Suit Tuxedo Set</h5>
+                                        <div class="price d-flex flex-row align-items-center"> <span class="act-price">$ 92.99</span>
+                                          
+                                        </div>
+                                    </div>
+                                    <p class="about">
+                                        <ul>
+                                            <li>Hand Wash Only</li>
+                                            <li>Button closure</li>
+                                            <li>Polyester Blend</li>
+                                            <li>Imported</li>
+                                            <li>Men suits 3 piece slim fit plaid blazer jacket tux vest pants set.Size Tip：Some customers who ordered it reflect the size is a little small, You can order it one size up.</li>
+                                        </ul>
+
+                                    </p>
+                                    <div class="sizes mt-5">
+                                        <h6 class="text-uppercase">Size</h6> <label class="radio"> <input type="radio" name="size" value="S" checked> <span>S</span> </label> <label class="radio"> <input type="radio" name="size" value="M"> <span>M</span> </label> <label class="radio"> <input type="radio" name="size" value="L"> <span>L</span> </label> <label class="radio"> <input type="radio" name="size" value="XL"> <span>XL</span> </label> <label class="radio"> <input type="radio" name="size" value="XXL"> <span>XXL</span> </label>
+                                    </div>
+                                    <div class="cart mt-4 align-items-center"> <button class="btn btn-danger text-uppercase mr-2 px-4">Add to cart</button> <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--end details of products  -->
+  <!-- men product -->
+  <section id = "collection" class = "py-5">
+    <div class = "container">
+        <div class = "title text-center">
+            <h2 class = "position-relative d-inline-block">Suit For Men</h2>
+        </div>
+            <div class = "collection-list mt-4 row gx-0 gy-3 border">
+                  <!-- products -->
+
+
+                 <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                    <div class = "collection-img position-relative">
+                     <a href="details9.html"> <img src = "images/image/men/men9.jpg" class = "w-100"></a>   
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Mens Plaid 3 Piece Suits Slim Fit Double Breasted Plaid Suit Jacket Vest Pants Set Formal</p>
+                        <span class = "fw-bold">$ 93.99</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                    <div class = "collection-img position-relative">
+                       <a href="details10.html"><img src = "images/image/men/men10.jpg" class = "w-100"></a>  
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Mens Suits 3 Piece Check Plaid Suit Single Breasted One Button Jackets Formal Dress Party Prom Casual Tuxedo Suits for Men</p>
+                        <span class = "fw-bold">$ 87.99</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                    <div class = "collection-img position-relative">
+                     <a href="details11.html"><img src = "images/image/men/men11.jpg" class = "w-100"></a>    
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">KUDORO Mens Suits 3 Piece Slim Fit Suit Double Breasted Pinstripe Suit Formal Wedding Tuxedo Suit</p>
+                        <span class = "fw-bold">$ 99.00</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                    <div class = "collection-img position-relative">
+                     <a href="details10.html"> <img src = "images/image/men/men12.jpg" class = "w-100"></a>   
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Mens Suits 3 Piece Check Plaid Suit Single Breasted One Button Jackets Formal Dress Party Prom Casual Tuxedo Suits for Men</p>
+                        <span class = "fw-bold">$ 95.99</span>
+                    </div>
+                </div>
+                 
+                
+
+            </div>
+
+            <div class = "collection-list mt-4 row gx-0 gy-3 border">
+
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                    <div class = "collection-img position-relative">
+                     <a href="details4.html"><img src = "images/image/men/men4.jpg" class = "w-100"></a>    
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Mens 3 Piece Slim fit Checked Suit Blue/Black Single Breasted Vintage Suits</p>
+                        <span class = "fw-bold">$ 59.99</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                    <div class = "collection-img position-relative">
+                        <a href="details6.html"><img src = "images/image/men/men6.jpg" class = "w-100"></a>  
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Mens Suits Regular Fit 3 Piece Skinny Tuxedo Blazer Waistcoat Pants Shawl Lapel Paisley Suits Set Men for Wedding</p>
+                        <span class = "fw-bold">$ 88.50</span>
+                    </div>
+                </div>
+
+                
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                    <div class = "collection-img position-relative">
+                        <a href="details7.html"><img src = "images/image/men/men7.jpg" class = "w-100"></a>    
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Mens Velvet 3 Piece Suits Slim Fit Peaked Lapel One Button Tuxedo Dinner Jacket Vest Pants Suit Set</p>
+                        <span class = "fw-bold">$ 99.99</span>
+                    </div>
+                </div>
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                    <div class = "collection-img position-relative">
+                        <a href="details8.html"><img src = "images/image/men/men8.jpg" class = "w-100"></a>    
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Mens 3 Piece Suits Slim Fit Tweed Suit Plaid Slim Fit Suits for Men One Button Suit Tuxedo Set</p>
+                        <span class = "fw-bold">$ 92.99</span>
+                    </div>
+                </div>
+
+             </div>
+
+             <div class = "collection-list mt-4 row gx-0 gy-3 border">
+
+                
+
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                    <div class = "collection-img position-relative">
+                        <a href="details5.html"><img src = "images/image/men/mens-2.png" class = "w-100"></a>  
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Mens Suits Regular Fit 3 Piece Skinny Tuxedo Blazer Waistcoat Pants Shawl Lapel Paisley Suits Set Men for Wedding</p>
+                        <span class = "fw-bold">$ 88.50</span>
+                    </div>
+                </div>
+        
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                    <div class = "collection-img position-relative">
+                        <a href="details2.html"><img src = "images/image/men/mens-3.png" class = "w-100"></a>  
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">COOFANDY Men's 3 Pieces Suit Shawl Lapel Tuxedo Slim Fit One Button Blazer Wedding Prom Jacket Vest Pants Bow Ties Set</p>
+                        <span class = "fw-bold">$ 79.99</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end ">
+                    <div class = "collection-img position-relative">
+                       <a href="details3.html"><img src = "images/image/men/mens-4.png" class = "w-100"></a>  
+                        <!-- <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span> -->
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Cloudstyle Mens 3-Piece Suit Notched Lapel One Button Slim Fit Formal Jacket Vest Pants Set</p>
+                        <span class = "fw-bold">$ 81.99</span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end"  >
+                    <div class = "collection-img position-relative  ">
+                        <a href="detailsmen1.html"><img src = "images/image/men/mens-1.png" class = "w-100"></a> 
+                         
+                    </div>
+                    <div class = "text-center">
+                        <div class = "rating mt-3">
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                        </div>
+                        <p class = "text-capitalize my-1">Cooper & Nelson Men's Suit Slim Fit, 3 Piece Suits for Men, One Button Solid Jacket Vest Pants with Tie, Tuxedo Set</p>
+                        <span class = "fw-bold">$ 85.99</span>
+                    </div>
+                </div>
+
+         </div>
+    </div>
+</section>
+<!-- end men peoduct -->
+
+
+    <!-- newsletter -->
+    <section id = "newsletter" class = "py-5">
+        <div class = "container">
+            <div class = "d-flex flex-column align-items-center justify-content-center">
+                <div class = "title text-center pt-3 pb-5">
+                    <h2 class = "position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+                </div>
+
+                <p class = "text-center text-muted">
+                    Sign Up For Newsletters
+                    
+                    Get Email update abouts our latest shop and special offers.
+                    </p>
+                <div class = "input-group mb-3 mt-3">
+                    <input type = "text" class = "form-control" placeholder="Enter Your Email ...">
+                    <button class = "btn btn-primary" type = "submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of newsletter -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center  p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+    
+        <!-- Section: Links  -->
+        <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>SUJU
+                </h6>
+                <p>
+                    You buy anything in here .You will get free delivery ,save 80% of money  and more…
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Links
+                </h6>
+                <p>
+                <a href="index.html" class="text-reset">Home</a>
+                </p>
+                <p>
+                <a href="shop.html" class="text-reset">Shop</a>
+                </p>
+                <p>
+                <a href="blog.html" class="text-reset">Blogs</a>
+                </p>
+                <p>
+                <a href="about.html" class="text-reset">About Us</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+                </h6>
+                <p>
+                <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Help</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i>  ÆON Mall Mean Chey, រាជធានី​ភ្នំពេញ</p>
+                <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                siengpengny@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> +885 972052232</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i> +885 123477779</p>
+            </div>
+            <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        </section>
+        <!-- Section: Links  -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2023 Copyright by Siengpengny
+        <a class="text-reset fw-bold" href="#"> </a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- jquery -->
+    <script src = "js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    
+</body>
+</html>

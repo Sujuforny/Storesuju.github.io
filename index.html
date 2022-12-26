@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUJU Home</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/main.css">
+
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class = "container">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+                <img src = "images/logo.png" alt = "site icon">  
+            </a>
+            <div class = "order-lg-2 nav-btns">
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-shopping-cart"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                </button>
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-heart"></i>
+                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                </button>
+                <button type = "button" class = "btn position-relative">
+                    <i class = "fa fa-search"></i>
+                </button>
+                
+            </div>
+
+            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+
+            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark active" href = "#header">home</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "shop.html"  >shop</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "blog.html">blog</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "about.html">about</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-uppercase text-dark" href = "contact.html">contact</a>
+                    </li>    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel" style = "padding-top: 104px;">
+        <div class = "container h-100 d-flex align-items-center carousel-inner">
+            <div class = "text-center carousel-item active">
+                <h2 class = "text-capitalize text-white">best collection</h2>
+                <h1 class = "text-uppercase py-2 fw-bold text-white">new arrivals</h1>
+                <a href = "shop.html" class = "btn mt-3 text-uppercase">shop now</a>
+            </div>
+            <div class = "text-center carousel-item">
+                <h2 class = "text-capitalize text-white">best price & offer</h2>
+                <h1 class = "text-uppercase py-2 fw-bold text-white">new season</h1>
+                <a href = "shop.html" class = "btn mt-3 text-uppercase">buy now</a>
+            </div>
+        </div>
+
+        <button class = "carousel-control-prev" type = "button" data-bs-target="#header" data-bs-slide = "prev">
+            <span class = "carousel-control-prev-icon"></span>
+        </button>
+        <button class = "carousel-control-next" type = "button" data-bs-target="#header" data-bs-slide = "next">
+            <span class = "carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!-- end of header -->
+     
+    <!-- features -->
+    <section id="features" class="row border-top border-bottom ">
+        <div class = "col-md-6 col-lg-4 col-xl-2  p-5  ">
+            <img  src="images/feature/save-money.png" alt="">
+            <h6 class="money p-1 mt-1">Save Money</h6>
+        </div>
+        <div class = "col-md-6 col-lg-4 col-xl-2  p-5  ">
+            <img src="images/feature/save-time.png" alt="">
+            <h6 class="times p-1 mt-1">Save Times</h6>
+        </div>
+        <div class = "col-md-6 col-lg-4 col-xl-2  p-5  ">
+            <img src="images/feature/fast-delivery.png" alt="">
+            <h6 class="fast p-1 mt-1">Fast Delivery</h6>
+        </div>
+        <div class = "col-md-6 col-lg-4 col-xl-2  p-5  ">
+            <img src="images/feature/secursity.png" alt="">
+            <h6 class="secursity p-1 mt-1">Secursity</h6>
+        </div>
+        <div class = "col-md-6 col-lg-4 col-xl-2  p-5  ">
+            <img src="images/feature/times.png" alt="">
+            <h6 class="time p-1 mt-1">24/7</h6>
+        </div>
+        <div class = "col-md-6 col-lg-4 col-xl-2  p-5  ">
+            <img src="images/feature/people.png" alt="">
+            <h6 class="friendly p-1 mt-1">friendly</h6>  
+        </div>
+
+    </section>
+    <!--end features -->
+
+    <!-- collection -->
+    <section id = "collection" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center">
+                <h2 class = "position-relative d-inline-block">New Arrival</h2>
+            </div>
+                <div class = "collection-list mt-4 row gx-0 gy-3 border" onclick="window.location.href='detailnew1.html';">
+                      <!-- products -->
+                     
+                      <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end"  >
+                        <div class = "collection-img position-relative  ">
+                            <img src = "images/image/1.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 8</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/2.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 8</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/5-3.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 8</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/14.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 8</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "collection-list mt-4 row gx-0 gy-3 border " onclick="window.location.href='detailnew2.html';">
+
+                        <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                            <div class = "collection-img position-relative">
+                                <img src = "images/image/4.jpg" class = "w-100">
+                                <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating mt-3">
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Women shirt</p>
+                                <span class = "fw-bold">$ 10</span>
+                            </div>
+                        </div>
+
+                        <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                            <div class = "collection-img position-relative">
+                                <img src = "images/image/7-2.jpg" class = "w-100">
+                                <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating mt-3">
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Women shirt</p>
+                                <span class = "fw-bold">$ 10</span>
+                            </div>
+                        </div>
+
+                        <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                            <div class = "collection-img position-relative">
+                                <img src = "images/image/7.jpg" class = "w-100">
+                                <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating mt-3">
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Women shirt</p>
+                                <span class = "fw-bold">$ 10</span>
+                            </div>
+                        </div>
+
+                        <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                            <div class = "collection-img position-relative">
+                                <img src = "images/image/8.jpg" class = "w-100">
+                                <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating mt-3">
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Women shirt</p>
+                                <span class = "fw-bold">$ 10</span>
+                            </div>
+                        </div>
+
+                 </div>
+
+                 <div class = "collection-list mt-4 row gx-0 gy-3 border" onclick="window.location.href='detailnew3.html';">
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/a21.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 5</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/a22.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 5</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/a15.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 5</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/a24.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 5</span>
+                        </div>
+                    </div>
+
+             </div>
+
+                <div class = "collection-list mt-4 row gx-0 gy-3 border">
+
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/9.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 20</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/10.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 18</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/11.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 25</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/12.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 15</span>
+                        </div>
+                    </div>
+
+                  
+                </div>
+
+                <div class = "collection-list mt-4 row gx-0 gy-3 border">
+
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/b-10.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 20</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/b-4.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 16</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/b-7.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 19</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/b-9.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">new</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 25</span>
+                        </div>
+                    </div>
+
+                  
+                </div>
+        </div>
+    </section>
+    <!-- end of collection -->
+
+    <!-- top products -->
+     
+    <section id = "collection" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center">
+                <h2 class = "position-relative d-inline-block">Top products</h2>
+            </div>
+                <div class = "collection-list mt-4 row gx-0 gy-3 border">
+                      <!-- products -->
+                     
+                      <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end"  >
+                        <div class = "collection-img position-relative  ">
+                            <img src = "images/image/1.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 8</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/2-4.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 8</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/5-1.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 5</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/15.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 9</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class = "collection-list mt-4 row gx-0 gy-3 border">
+
+                        <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                            <div class = "collection-img position-relative">
+                                <img src = "images/image/4-1.jpg" class = "w-100">
+                                <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating mt-3">
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Women shirt</p>
+                                <span class = "fw-bold">$ 10</span>
+                            </div>
+                        </div>
+
+                        <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                            <div class = "collection-img position-relative">
+                                <img src = "images/image/7-4.jpg" class = "w-100">
+                                <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating mt-3">
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Women shirt</p>
+                                <span class = "fw-bold">$ 8</span>
+                            </div>
+                        </div>
+
+                        <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                            <div class = "collection-img position-relative">
+                                <img src = "images/image/7-3.jpg" class = "w-100">
+                                <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating mt-3">
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Women shirt</p>
+                                <span class = "fw-bold">$ 5</span>
+                            </div>
+                        </div>
+
+                        <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                            <div class = "collection-img position-relative">
+                                <img src = "images/image/8-4.jpg" class = "w-100">
+                                <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                            </div>
+                            <div class = "text-center">
+                                <div class = "rating mt-3">
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                    <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                </div>
+                                <p class = "text-capitalize my-1">Women shirt</p>
+                                <span class = "fw-bold">$ 8</span>
+                            </div>
+                        </div>
+
+                 </div>
+
+                 <div class = "collection-list mt-4 row gx-0 gy-3 border">
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/a21.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 5</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/a22.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 5</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/a15.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 5</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/a24.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Women shirt</p>
+                            <span class = "fw-bold">$ 6</span>
+                        </div>
+                    </div>
+
+             </div>
+
+                <div class = "collection-list mt-4 row gx-0 gy-3 border">
+
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/9.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 30</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/10-1.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 25</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/11-1.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 22</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/12-2.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">hoodei shirt</p>
+                            <span class = "fw-bold">$ 29</span>
+                        </div>
+                    </div>
+
+                  
+                </div>
+
+                <div class = "collection-list mt-4 row gx-0 gy-3 border">
+
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/b-15.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">T shirt</p>
+                            <span class = "fw-bold">$ 15</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/b16.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">T shirt</p>
+                            <span class = "fw-bold">$ 15</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 border-end">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/b17.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">T shirt</p>
+                            <span class = "fw-bold">$ 15</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3 col-xl-3  p-5 ">
+                        <div class = "collection-img position-relative">
+                            <img src = "images/image/b-19.jpg" class = "w-100">
+                            <span class = "position-absolute bg-warning text-white d-flex align-items-center justify-content-center">Top</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                                <span class = "text-warning"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">T shirt</p>
+                            <span class = "fw-bold">$ 15</span>
+                        </div>
+                    </div>
+
+                  
+                </div>
+        </div>
+    </section>
+    <!-- end top peoduct -->
+
+ 
+    <!-- discount -->
+    <section id = "offers" class = "py-5">
+        <div class = "container">
+            <div class = "row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
+                <div class = "offers-content">
+                    <span class = "text-white">Discount Up To 80%</span>
+                    <h2 class = "mt-2 mb-4 text-white">Grand Sale Offer!</h2>
+                    <a href = "discount.html" class = "btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end discount -->
+    <!-- newsletter -->
+    <section id = "newsletter" class = "py-5">
+        <div class = "container">
+            <div class = "d-flex flex-column align-items-center justify-content-center">
+                <div class = "title text-center pt-3 pb-5">
+                    <h2 class = "position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+                </div>
+
+                <p class = "text-center text-muted">
+                    Sign Up For Newsletters
+                    
+                    Get Email update abouts our latest shop and special offers.
+                    </p>
+                <div class = "input-group mb-3 mt-3">
+                    <input type = "text" class = "form-control" placeholder="Enter Your Email ...">
+                    <button class = "btn btn-primary" type = "submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of newsletter -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center  p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+            <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+    
+        <!-- Section: Links  -->
+        <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>SUJU
+                </h6>
+                <p>
+                    You buy anything in here .You will get free delivery ,save 80% of money  and more…
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Links
+                </h6>
+                <p>
+                <a href="index.html" class="text-reset">Home</a>
+                </p>
+                <p>
+                <a href="shop.html" class="text-reset">Shop</a>
+                </p>
+                <p>
+                <a href="blog.html" class="text-reset">Blogs</a>
+                </p>
+                <p>
+                <a href="about.html" class="text-reset">About Us</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+                </h6>
+                <p>
+                <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                <a href="#!" class="text-reset">Help</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i>  ÆON Mall Mean Chey, រាជធានី​ភ្នំពេញ</p>
+                <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                siengpengny@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> +885 972052232</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i> +885 123477779</p>
+            </div>
+            <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        </section>
+        <!-- Section: Links  -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2023 Copyright by Siengpengny
+        <a class="text-reset fw-bold" href="#"> </a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- jquery -->
+    <script src = "js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    
+</body>
+</html>
